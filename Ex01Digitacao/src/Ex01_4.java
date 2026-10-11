@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
   Ex 1.4: Ovos das galinhas
   - calcular quantas caixas de ovos cheias podem ser levadas ao mercado
@@ -12,6 +14,20 @@
 -------------------------------------------------------------------*/
 public class Ex01_4 {
     public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        // digitar quantos ovos
+
+        System.out.println("Quantos ovos?");
+        int ovos = teclado.nextInt();
+
+        //calcular quantas caixas
+        int caixas  = ovos / 12;
+
+        //calcular quantos sobram
+        int sobra = ovos % 12;
+
+        System.out.println("Você pode levar " + caixas + " caixas no mercado. Sobraram " + sobra + " ovos!");
 
     }
 }
+

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ex01Digitacao/Ex01Digitacao.iml" filepath="$PROJECT_DIR$/Ex01Digitacao/Ex01Digitacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex02Decisao/Ex02Decisao.iml" filepath="$PROJECT_DIR$/Ex02Decisao/Ex02Decisao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex01Digitacao/Ex_Classroom/Ex_Classroom.iml" filepath="$PROJECT_DIR$/Ex01Digitacao/Ex_Classroom/Ex_Classroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ExerciciosJava.iml" filepath="$PROJECT_DIR$/.idea/ExerciciosJava.iml" />
     </modules>
   </component>

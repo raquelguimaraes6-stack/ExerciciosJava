@@ -18,7 +18,6 @@ public class Ex01_1 {
         System.out.print("mundo, ");
         // \n pula uma linha
         System.out.print("outra vez!\n");
-
         // vamos criar algumas variáveis
         String nome = "Juca da Silva";
         int idade = 20;

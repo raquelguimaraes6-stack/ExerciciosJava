@@ -17,7 +17,28 @@
   - exemplo: senha.equals(confirmacao)
   - não use o operador == para comparar duas strings
   -------------------------------------------------------------------*/
+import java.util.Scanner;
+
 public class Ex02_2 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String senha;
+        String confirmacao;
+
+        System.out.print("Digite sua senha: ");
+        senha = scanner.nextLine();
+
+        System.out.print("Confirme sua senha: ");
+        confirmacao = scanner.nextLine();
+
+        if (senha.equals(confirmacao)) {
+            System.out.println("Cadastro confirmado com sucesso!");
+        } else {
+            System.out.println("Erro: as senhas são diferentes!");
+        }
+
+        scanner.close();
     }
 }
+
